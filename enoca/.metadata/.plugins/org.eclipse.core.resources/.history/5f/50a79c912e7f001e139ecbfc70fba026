@@ -1,0 +1,10 @@
+package com.io.enoca.DataAccess;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.io.enoca.entities.Order;
+
+public interface OrderRepositoy extends JpaRepository<Order, Integer> {
+	
+
+}

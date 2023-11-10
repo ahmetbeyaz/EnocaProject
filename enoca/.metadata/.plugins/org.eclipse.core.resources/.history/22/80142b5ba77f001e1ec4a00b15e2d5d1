@@ -1,0 +1,16 @@
+package com.io.enoca.models;
+
+import java.util.List;
+
+import com.io.enoca.entities.Order;
+
+public class CustomerOrderSearchResponse {
+
+	private int id;
+	
+	private String name;
+	
+	private int age;
+	
+	private List<Order>  orders;
+}

@@ -1,0 +1,26 @@
+package com.io.enoca.business.abstracts;
+
+import java.util.List;
+
+import com.io.enoca.entities.Customer;
+
+public interface CustomerService {
+	
+	List<Customer>  getAll();
+	
+	List<Customer> getCustomersByNameContaining(String keyword);
+	
+	List<Customer> getCustomersWithoutOrders();
+	
+	List<Customer> getCustomersByAgeBetween(int minAge ,int maxAge);
+	
+	
+	void add(Customer customer);
+	
+	void update(Customer customer);
+	
+	void delete(int id);
+	
+	Customer  getById(int id);
+
+}

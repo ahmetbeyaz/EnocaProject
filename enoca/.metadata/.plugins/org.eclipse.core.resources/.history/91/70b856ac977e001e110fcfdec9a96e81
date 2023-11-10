@@ -1,0 +1,5 @@
+package com.io.enoca.DataAccess;
+
+public interface CustomerRepository {
+
+}

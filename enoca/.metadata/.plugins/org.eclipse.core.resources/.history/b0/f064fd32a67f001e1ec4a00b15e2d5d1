@@ -1,0 +1,7 @@
+package com.io.enoca.models;
+
+public class CustomerOrderSearchResponse {
+	
+	
+	
+}

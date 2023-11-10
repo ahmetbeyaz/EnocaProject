@@ -1,0 +1,23 @@
+package com.io.enoca.business.abstracts;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+import com.io.enoca.entities.Customer;
+import com.io.enoca.entities.Order;
+
+public interface OrderService {
+	
+	List<Order>  getAll();
+	
+	List<Order>  getOrdersAfterDate(LocalDateTime localDateTime);
+	
+	List<Order>  getOrdersByCustomer(Customer customer);
+	
+	void add(Order order);
+	void update(Order order);
+	void delete(int id);
+	
+	
+
+}
